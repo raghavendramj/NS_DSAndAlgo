@@ -1,0 +1,17 @@
+OOPs Concepts
+	Object -> Instance of a class
+	Class
+	Inheritance
+	Polymorphism
+	Abstraction
+	Encapsulation
+	
+	
+	Parent Class
+		Animal
+			-> eatFood		
+	Child Class
+		Tiger extends Animal
+		
+		
+	Polymorphism

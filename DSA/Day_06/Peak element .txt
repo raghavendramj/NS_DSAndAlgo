@@ -1,0 +1,17 @@
+Company Asked :- Google, Amazon, Visa
+
+An element is called a peak element if its value is not smaller than the value of its adjacent elements(if they exists).
+Given an array arr[] of size N, find the index of any one of its peak elements.
+			------------------->
+arr[] = {1, 2, 3, 23, 45,12, 13, 5, 4, 4}
+Answer:- 13
+Index:- 6
+
+arr[] = {1,2,3}
+Peak Element -> 3
+Index of it  -> 2
+
+
+arr[] = {3,4}
+Peak Element -> 4
+Index :- 1

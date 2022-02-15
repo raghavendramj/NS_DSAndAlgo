@@ -1,0 +1,54 @@
+
+Question:
+	DSA -> Data Structures and Algorithms
+
+	Data Structures
+		Arrays
+		Linked List
+		Stack -> Last In First Out
+		Queue -> First In First Out
+		Tree
+			-> Binary Tree
+			-> Binary Search Tree
+			-> N-ary Tree
+		Graph
+			Depth First Search
+			Breadth First Search
+
+	Approaches:
+		Dynamic Programming
+		Greedy Approach
+		Sorting
+		Searching
+		Recursion
+
+	Algorithms
+		Arrays
+			Searching
+				-> Binary Search
+				-> Linear Search
+			Sorting
+				-> Quick Sorting
+				-> Merge Sorting
+				-> Insertion Sorting
+				-> Selection Sorting
+				-> Bubble Sorting
+		Linked List
+		Stack -> Last In First Out
+		Queue -> First In First Out
+		Tree
+			-> Binary Tree
+			-> Binary Search Tree
+			-> N ary Tree
+		Graph
+			Depth First Search
+			Breadth First Search
+		-> Tree
+				PreOrder
+				PostOrder
+
+	int arr[] = new int[]{3, 1, 8, 2, 9, 10}
+
+	Sorting :-
+		Descending  -> 10, 9, 8, 3, 2, 1
+		Ascending -> 1, 2, 3, 8, 9, 10

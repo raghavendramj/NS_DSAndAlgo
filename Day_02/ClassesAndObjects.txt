@@ -1,0 +1,60 @@
+public class HondaCity{
+	private int noOfKms;
+
+	public HondaCity(int kms){
+		this.noOfKms = kms;
+	}
+
+	public void drive(){
+		System.out.println("Drive!");
+	}
+
+	public static void main(String args[]){
+		HondaCity car1 = new HondaCity(0);
+		HondaCity car2 = new HondaCity(0);
+		HondaCity car3 = new HondaCity(0);
+	}
+}
+ 
+-> Objects ->
+		HondaCity car1 = new HondaCity();
+
+		HondaCity -> Reference Type which talks about my object
+		car1 -> Reference variable which is my object
+		new  -> Creates/fetches the memory for my object
+		HondaCity() ->
+		
+	
+//Creating the class	
+class Student{
+	private int id;
+	private String name;
+	
+	//Default constructor (no-arg constructor)
+	public Student(){
+	}
+	
+	//Parameterized constructor
+	public Student(int studentId, String studentName){
+		this.id = studentId;
+		this.name = studentName;
+	}
+	
+	public void displayStudent(){
+		System.out.println("Student name : "+ this.name +" and the id : "+ this.id);
+	}
+}
+
+class Runner{
+	public static void main(String args[]){
+		//Creating the objects
+		Student student1 = new Student(1, "Srinivas");
+		Student student2 = new Student(2, "Vasu Sharma");
+		Student student3 = new Student(2, "Vasu Sharma");
+		
+		//Access exposed method
+		student1.displayStudent();
+	}
+}
+
+

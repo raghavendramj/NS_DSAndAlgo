@@ -1,0 +1,21 @@
+Reverse a String
+
+Input:
+	s = Geeks
+	Output: skeeG
+
+Input:
+	s = raghav
+	Output: vahgar
+	
+	Using Stack :-
+			r a g h a v 
+	o/p: v a h g a r
+	
+	
+		r		a		g		h		a		v
+		v		a		g		h		a		r
+		v		a		g		h		a		r
+		v		a		h		g		a		r
+						j		i		
+

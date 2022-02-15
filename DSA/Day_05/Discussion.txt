@@ -1,0 +1,59 @@
+Arrays
+	-> Problems
+	-> Assignments
+		-> Rotate an array
+		-> Charity question
+		
+For example, on Day 1 - Both, Day 2 - Neither of them, Day 3 - Dom, Day 4 - Leach, Day 5 - Dom, Day 6 - Neither of them, Day 7 - Both.. and so on.
+
+Dom plays every second day, while Leach plays every third day.
+
+0 Day1 -> Both
+1 Day2 -> None +4
+2 Day3 -> Dom
+3 Day4 -> Leach
+4 Day5 -> Dom 
+5 Day6 -> None +3
+6 Day7 -> Dom
+7 Day8 -> Leach
+8 Day9 -> Dom 
+9 Day10 -> None 
+
+find Dom
+
+Index Based ->
+	Length 6 -> 2
+	Length 10 -> 3
+	None
+		5 -> 1 (+ 4) -> 5 (+4)-> 9 (+4)-> 13
+	Dom
+		5 -> 2 (+ 2) -> 4 (+2)-> 6 (+2)
+		
+Collections:
+	-> List -> Maintains ordering and allows duplicates
+		-> ArrayList -> Dynamic array -> 
+			10 -> 11th Element - 10*3/2 => 15 -> 16 -> 15*3/2 => ....
+				Arrays -> Fetching values are easy -> O(1) 
+					[3,	4, 	5, 	6, 	1, 	12,	 34]
+					-> arr[3] -> 6
+				Arrays -> Inserting will take O(n) -> Costly Operation
+					[3,	4, 	10, 	5, 	6, 	1, 	12,	 34]
+					-> arr[3] -> 6
+		-> LinkedList
+			-> Fetching -> 0(n)
+			-> Insertion  -> O(logn)
+				15 ->3	-> 4 -> 10 ->	5->	6->	1->	12-> 34 
+				
+	-> Set	-> Doesn't Maintains ordering and will not allows duplicates
+		-> HashSet
+		-> TreeSet
+	
+	
+Armstrong -> A number is said to Armstrong if it is equal to sum of cube of its digits.
+	123 -> 1^3 + 2^3 + 3^3 = 1 + 8 + 27 = 36
+		(36 == 123) -> false
+		
+	153 -> 1^3 + 5^3 + 3^3 = 1 + 125 + 27 =153
+		153 == 153 => true
+	
+	5*5 

@@ -1,0 +1,37 @@
+First Step:
+		Java Development Toolkit:-
+		Version:- >= 8
+		Java :- https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+		Direct Link:- https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi
+		Filename:- x64 MSI Installer
+		After downloading:- Click on install
+		
+Second Step :-
+	Set Java JDK path in environment variables
+		JAVA_HOME = C:\Program Files\Java\jdk-17.0.1	
+		PATH = %PATH%;C:\Program Files\Java\jdk-17.0.1\bin;
+		
+Third Step :-
+	Open Command Prompt and run the command :- 
+			C:\> java --version
+				java 17.0.1 2021-10-19 LTS
+				Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+
+More on Java language fundamentals. JDK, JRE
+
+Filename 		:- 	BubbleSort.java
+	Compilation 	:- 
+		Syntax 	:- 		javac <Filename>.java
+		Example :-		javac BubbleSort.java
+		Result :- 	BubbleSort.class
+		
+		.java -------javac--------->.class file -> ByteCode --------java-----------> Output
+		
+	Execution/Interpretation:-
+		Syntax 	:- 		java <Filename>
+		Example :-		java BubbleSort
+		Result :-		output -> sorted numbers ->  1, 3, 4, 8, 9, 12, 15
+
+Taking Input and printing,
+Types of exception and handling them.
+	

@@ -1,0 +1,28 @@
+Sort an array of 0s, 1s and 2s
+
+Company's Asked:-
+ Adobe Amazon Hike MakeMyTrip MAQ Software Microsoft Morgan Stanley Ola Cabs OYO Rooms Paytm Qualcomm Samsung SAP Labs Snapdeal Walmart Yatra.com Flipkart
+ 
+ Input: 
+N = 5
+arr[]= {0 2 1 2 0}
+Output:
+	0 0 0 0 0 1 1 1 2 2 2 2 2 
+	
+	5 
+	3
+	4
+	
+	 int i = 0;
+	for (; i < 5; i++) {
+		nums[i] = 0;
+	}
+	
+	  for (; i < 5 + 3; i++) {
+            nums[i] = 1;
+        }
+	  for (; i < 5 + 3 + 4; i++) {
+            nums[i] = 1;
+        }
+	
+	

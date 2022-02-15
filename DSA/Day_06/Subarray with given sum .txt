@@ -1,0 +1,14 @@
+Subarray with given sum
+Given an unsorted array A of size N that contains only non-negative integers, find a continuous sub-array which adds to a given number S.
+
+Input:
+N = 5,
+Sum = 12
+A[] = {1,2,3,7,5}
+
+Input:
+N = 10,
+Sum = 15
+A[] = {1,2,3,4,5,6,7,8,9,10}
+
+

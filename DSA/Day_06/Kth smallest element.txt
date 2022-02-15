@@ -1,0 +1,36 @@
+Given an array arr[] and an integer K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+Company's Asked :-
+ABCO Accolite Amazon Cisco Hike Microsoft Snapdeal VMWare Google Adobe
+
+arr[] = 7 10 4 3 20 15
+N = 6
+K = 3
+Ascending
+	-> 3, 4, 7, 10, 15, 20 
+	
+	Bubble Sorting
+	------------------
+	i
+	7 10 4 3 20 15
+		i
+	3 10 7 4 20 15
+	3 7 10 4 20 15
+	3 4 10 7 20 15
+	------------------
+	3 4 10 7 20 15
+	3 4 7 10 20 15
+	------------------
+	3 4 7 10 15 20
+						i
+						j
+						
+	for(int i=0; i<n-1; i++){
+		for(int j=i; j<=n-1; j++){
+			if(arr[j] < arr[i]){
+				int temp = arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
+			}
+		}
+	}
+	

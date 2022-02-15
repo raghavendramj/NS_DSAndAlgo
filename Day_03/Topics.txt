@@ -1,0 +1,10 @@
+Java Basics, 
+writing code in Java, 
+If statements Loops. 
+Flow of basic code and best coding  practices
+	
+
+All Static members are class level members and shared across different objects
+From a static member function, you can only call/invoke other static member functions, 
+but if we want to invoke a non static function, we need to create object of a class to do this
+

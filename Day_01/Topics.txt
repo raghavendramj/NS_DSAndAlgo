@@ -1,0 +1,159 @@
+https://www.gcu.edu/blog/engineering-technology/computer-programming-importance#:~:text=Computer%20programming%20is%20important%20today,to%20harness%20that%20computing%20power.
+Why Programming, simple use case where programming is required,
+	Why Programming, simple use case where programming is required,
+	-> build a viable and good software
+	-> we use tool for these
+		-> Programming Languages
+	Programming Languages
+		Web Application
+		Mobile Application
+		Distributed Application
+Programming Basics
+	Memory
+		-> Stack -> variables
+		-> Heap
+	5 basic concepts:- https://sphero.com/blogs/news/coding-concepts
+		1. Variables
+			int salary = 10000;
+			print(salary); -> 10000
+			Declaration
+				int salary;
+			Initialization
+				salary = 10000;
+			Declaration + Initialization
+				int salary = 1000
+		2. Data Structure
+			Array -> contiguously
+				-> int empSalaries[] = {1000, 2000, 3000, 4000, 2300};
+			List
+				-> 1000 -> 2000 -> 3000 -> 4000 -> 2300
+		3. Control Structure
+			for eachSalary in empSalaries
+				print(eachSalary) -> 1000
+				print(eachSalary) -> 2000
+				print(eachSalary) -> 3000
+				print(eachSalary) -> 4000
+		4. Syntax
+				Email :- raghav@gmail.com
+				Example:
+					Java
+					C++
+					C
+					JS
+					Phython
+					Go
+					R
+					C#
+					Flutter
+
+		5. Tool
+			-> IDE -> Intellij, Eclipse, VS Code, etc...
+
+Intro to Java and Development setup
+	JDK -> Java Development Toolkit
+
+	Java Development Toolkit:-
+		Version:- >= 8
+		Java :- https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+		Direct Link:- https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi
+		Filename:- x64 MSI Installer
+		After downloading:- Click on install
+
+	Eclipse Installation
+		https://www.eclipse.org/downloads/packages/release/oxygen/r/eclipse-ide-java-ee-developers
+		Filename: Windows x86_64
+		After downloading:- Just Extract
+
+Programming Language :- Java
+Developed :- Sun Microsystems now under Oracle
+Father of Java :-  James Gosling
+Data Types and Code Flow
+	1 Byte = 8 bits
+
+	-> Primitive Data Types:
+			Number
+				byte -> 1 byte 		-> 	-128 .. 127
+				short -> 2 bytes 	-> 	-32,768 .. 32,767
+				int 	-> 4 bytes 		-> 	-2,147,483,648 .. 2,147,483,6
+				long -> 8 Bytes	-> 	-9,223,372,036,854,775,808 .. 9,223,372,036,854,775,807
+				--------------------------------------------------------------------------------------------
+				float 	-> 4 bytes -> 0.0
+				double -> 8 bytes
+				boolean -> 1 bit -> true or false
+				char -> 2 bytes -> 'a', 'b'
+	-> Non-Primitive
+			String -> "Raghavendra"
+			Array -> {"Raghava", "Keshava", "Kirana", "Chethana"}
+
+How to Write simple psuedo code,
+		1. Find largest number in the array -> {10, 12, 1, 23, 13, 6, 56, 15, 40}
+																	0,   1,   2,   3,   4,   5,  6,  7,   8
+			Length of the array -> 9
+			findLargestNumber(arr)
+				largest=0;
+				for i-> 0 - to n-1
+					if(arr[i] > largest)
+						largest = arr[i]
+				return largest;				
+				
+		2. Number, you check prime number or not
+		
+			Not a prime Number :- 0, 1, 4, 6, 10
+			Prime Number :- 2, 3, 5, 7, 11
+			
+			checkPrimeNumber(number)
+				//base condition
+				if number == 0 || number == 1
+					print("This is not a prime number");
+					
+				for i= 2 to n/2
+					if(n % i == 0) 
+						print("This is not a prime number");						
+				print("This is a prime number");
+				
+2, ,..... 10/2 -> 5
+
+10 % 2 = 0
+10 % 3 = 1
+.....
+
+11
+	-> 2.... 11/2= 5 => 2...5
+	
+	is 11 % 2 == 0 -> false 
+	is 11 % 3 == 0 -> false 
+	is 11 % 4 == 0 -> false 
+	is 11 % 5 == 0 -> false  
+
+Difference in different programming languages,
+	Java
+	C++
+	C
+	JS
+	Phython
+	Go
+	R
+	C#
+	Flutter
+
+Interview :-
+	Machine Coding ->Hackerrank -> 2-3 Coding Questions
+	Interviewer Led Coding Round -> 1 -> Problem Solving -> DS and Algo -> Basics
+	Interviewer Led Coding Round -> 2 -> Problem Solving -> DS and Algo -> Advanced
+	Interviewer Led Technical Round -> 3 -> Problem Solving -> Java/Javascript/Phython
+	Interviewer Led Design Round -> 4 -> Problem Solving -> System Design
+	Interviewer Led Manger/HR Round -> 5 -> Problem Solving -> Design + DS + Salary Discussion
+	
+	0-3
+		-> Problem Solving -> DS and Algo
+		-> Technical Round
+	3-6
+		-> Problem Solving -> DS and Algo
+		-> Technical Round
+		-> System Design
+	6+
+		-> Problem Solving -> DS and Algo
+		-> Technical Round + System Design -01
+		-> System Design -01
+		-> Managerial
+

@@ -1,0 +1,31 @@
+Given an array , find the largest and smallest element in the array.
+Array -> [1, 5, 2, 8, 3, 7, 9, 4]
+Largest :- 9
+smallest :- 1
+
+Sort numbers :-	nums  
+	nums -> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+	Index -> [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+len = 9
+Largest :- 9 =>  nums[len-1]
+smallest :- 1 => nums[0]
+
+largeNumber = Integer.MIN_VALUE; -> -1245246
+smallNumber = Integer.MAX_VALUE; -> 1245246
+
+	nums -> [1, 5, 2, 8, 3, 7, 9, 4]
+	for(int i=0; i< len ; i++){		
+		if(arr[i] > largeNumber){
+			largeNumber = arr[i]; largeNumber -> 1 => 5 => 8 => 9
+		}
+		if(arr[i] <  smallNumber){
+			smallNumber = arr[i]; smallNumber -> 1
+		}
+	}
+	
+	smallNumber -> 1
+	largeNumber -> 9
+	
+
+
