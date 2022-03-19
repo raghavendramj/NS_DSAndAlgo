@@ -24,7 +24,7 @@ public class FubinocciSeries {
     }
 
     public static void main(String[] args) {
-        System.out.println("Fibonacci Number :: Iterative : " + fubinocciNumberIterative(70));
-        System.out.println("Fibonacci Number :: Recursive : " + fubinocciNumberRecursive(45));
+//        System.out.println("Fibonacci Number :: Iterative : " + fubinocciNumberIterative(70));
+        System.out.println("Fibonacci Number :: Recursive : " + fubinocciNumberRecursive(50));
     }
 }
