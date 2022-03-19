@@ -1,0 +1,10 @@
+Derive time complexity of different given equations and relations. 
+Discuss recursion & solve a basic problem to make them understand recursion
+
+
+int sum(int number){
+
+}
+
+2     4
+0     6

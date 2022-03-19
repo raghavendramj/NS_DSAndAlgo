@@ -1,0 +1,14 @@
+Strings in JAVA, implementation and deep  knowledge about it, char , String initialization, 
+Common String methods, String constant Pool
+
+Given a array of N strings, find the longest common prefix among all strings present in the array.
+
+	arr[] = {"rahul", "rahu", "rahulkl", "ra" }
+	output :- ra
+
+	arr[] = {"raghav", "keshava" }
+	Output :- 	-1
+
+	arr[] = {"welcom", "class" }
+	Output :- -1 
+	There's no common prefix

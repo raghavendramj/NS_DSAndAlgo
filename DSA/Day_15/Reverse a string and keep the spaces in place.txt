@@ -1,0 +1,7 @@
+Reverse a string and keep the spaces in place
+
+Input :-   "my name is raghav"
+Output :- "va hgar si emanym"
+
+Input:- "virat hits six";
+Input:- "xisst ihta riv";

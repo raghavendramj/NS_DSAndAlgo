@@ -1,0 +1,34 @@
+Solve questions on Strings
+Problems: Palidrome, All SubStrings, Anagram
+		------->
+			gadag, madam, radar, 
+		<---------
+		gadag
+		
+
+Palidrome -> Find longest palindrome in a given string 
+
+	ragabatestgadagmratatdr
+	-> What are the palindromes?
+		aba
+		gadag -> Longest Palindrome 
+		aga
+		ata
+		ada
+		tat
+		
+Anagram -> 
+			 
+			aaghvr
+			aaghvr 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
